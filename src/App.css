@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Homemade+Apple&family=Kaushan+Script&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600&family=Pacifico&family=Roboto&family=Sometype+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Homemade+Apple&family=Kaushan+Script&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600&family=Pacifico&family=Pangolin&family=Roboto&family=Sometype+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Homemade+Apple&family=Kaushan+Script&family=Montserrat:wght@100&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600&family=Pacifico&family=Pangolin&family=Playfair+Display&family=Poiret+One&family=Roboto&family=Sometype+Mono:ital@1&family=Stylish&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Homemade+Apple&family=Kaushan+Script&family=Montserrat:wght@100&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600&family=Pacifico&family=Pangolin&family=Playfair+Display&family=Poiret+One&family=Roboto&family=Sometype+Mono:ital@1&family=Stylish&family=Yatra+One&family=Zeyada&display=swap');
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.4rem 8rem;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px -2px black;
+    background-color: #433f3f;
+}
+
+.tab {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 4rem;
+    font-family: 'Nunito Sans', sans-serif;
+    color: hwb(0 100% 0%);
+
+}
+
+.logo {
+
+    font-family: 'Pacifico', cursive;
+    color: white;
+    /* color: #433f3f; */
+}
+
+.img img {
+    width: 60rem;
+    height: 46rem;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.piclogo img {
+    padding-top: 1.5rem;
+    padding-left: 7rem;
+    padding-right: 5rem;
+    width: 25rem;
+    height: 25rem;
+}
+
+.makeup {
+    /* padding: 1.4rem 8rem; */
+
+    /* background-color: rgb(253, 252, 252); */
+    background-color: #E8E7E5;
+}
+
+.makeuphead {
+    text-align: center;
+    /* font-family: 'Pangolin', cursive; */
+    font-family: 'Dancing Script', cursive;
+    ;
+    padding: 0.2rem;
+    color: #433f3f;
+}
+
+.makeuppiccont {
+    padding-left: 9rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.6rem;
+}
+
+.makeuppic img {
+    height: 20rem;
+    width: 17rem;
+}
+
+.conthead {
+    color: #969090;
+    text-align: center;
+}
+
+.contbutton button {
+    color: #573621;
+    background-color: #F6F1EE;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    border: none;
+    font-size: medium;
+}
+
+.contbutton {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.mb {
+    padding-top: 3rem;
+}
+
+/* footer */
+.footerContainer {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    background-color: #cfcfcf;
+    color: #9D5A4D;
+    margin: auto;
+}
+
+.topheading {
+    text-align: center;
+}
+
+.secTopheading {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem 0rem;
+}
+
+.toheads {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.Subtohead {
+    margin: auto;
+    padding-left: 4rem;
+}
+
+.Subtoheadsec {
+    padding-left: 6.3rem;
+}
+
+.services {
+    /* padding-top: 10px; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.servicesTab {
+    margin: auto;
+}
+
+.tab a {
+    text-decoration: none;
+    color: #fffdfd;
+}
+
+
+/* cards */
+
+.serviceheading {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #433f3f;
+    padding-top: 1.5rem;
+     font-family: 'Pangolin', cursive;;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+
+}
+
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.5rem;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.cardimg img {
+    border-radius: 50%;
+    height: 33vh;
+    width: 36vh;
+}
+
+.cardtag {
+    margin: auto;
+}
+
+.serviceb button {
+    font-size: medium;
+    font-family: 'Pangolin', cursive;
+    border: none;
+    box-shadow: 0rem 0rem 10rem -2rem burlywood;
+    padding: 0.5rem 2rem;
+    background-color: #cac7c7;
+    border-radius: 2rem;
+    box-shadow: 0rem 0rem 10rem -2rem#433f3f;
+
+}
+
+.serviceb {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0rem 0rem 10rem -2rem#433f3f; 
+
+}
+
+.service {
+    background-color: #edeceb;
+    padding-bottom: 3rem;
+}
+
+/* contact */
+.contact {
+   display: flex;
+   flex-direction: row;
+    background-color: #E8E7E5;
+}
+
+.contactimg img {
+    height: 38rem;
+    width: 32rem;
+    padding-left: 6rem;
+    padding-top: 4.5rem;
+    padding-bottom: 3rem;
+}
+
+.contacthead h1 {
+    
+    font-size: 5rem;
+    font-weight: 900;
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* font-family: 'Pangolin', cursive; */
+    font-family: Philosopher;
+    /* font-family: 'Nunito Sans', sans-serif; */
+    color: #3f3838;
+}
+.contacthead{
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 6rem;
+   
+}
+.contactcont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    /* gap: 5rem; */
+}
+
+.iconcontact{
+    margin-top: 7rem;
+    width: 80%;
+  display: grid;
+  font-size: 2rem;
+  grid-template-columns: repeat(3,1fr);
+ 
+}
+
+.based{
+   margin-top: 3rem;
+}
+
+.contactbutton button{
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    font-family: 'Pangolin', cursive;
+    border: none;
+    box-shadow: 0rem 0rem 10rem -2rem burlywood;
+    padding: 0.5rem 2rem;
+    background-color: #433f3f;
+    background-color: #272525;
+    /* background-color: #696161; */
+    color: white;
+    border-radius: 2rem;
+    box-shadow: 0rem 0rem 10rem -2rem#433f3f;
+
+}
+.contactfield{
+    font-size: 2rem;
+}
+.contact1{
+    margin-left: 1rem; 
+    width: 50%;
+}
+.contactfield{
+    display: grid;
+   gap: 2rem;
+}
+
+/* about */
+.about {
+    background-image: url('./assests/CC.png');
+
+    padding-bottom: 18rem;
+    padding-top: 16rem;
+   
+    /* background-color: black; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   background-position: center;
+  
+}
+
+.abouthead1 h1 {
+    
+    text-align: center;
+   
+    font-family: Philosopher;
+    /* font-family: 'Stylish', serif; */
+    /* font-family: 'Playfair Display', serif; */
+    font-family: Yatra One;
+    
+    color:#433f3f;
+    /* color: white; */
+    
+    /* color: #3f3838; */
+    /* -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color:#433f3f; */
+
+    /* color: white; */
+    font-size: 3rem;
+}
+
+.abouthead2 {
+    font-family: 'Homemade Apple', cursive;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    color: #fcfcfc;
+
+    /* font-family: 'Poiret One', sans-serif; */
+}
+
+.ahead {
+    margin-top: 4rem;
+}
+
+.about2{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: #E8E7E5;
+    padding: 0rem 8rem;
+}
+.about{
+    background-color: #E8E7E5;
+}
+.about2image{
+    margin: 4rem 6rem;
+}
+.about2image img{
+       height: 35rem;
+       border-top-left-radius: 200px;
+       border-top-right-radius: 200px;
+}
+.about2cont{
+    margin:4rem 4rem;
+}
+.about2head h1{
+    font-family: Yatra One;
+    color:#433f3f;
+    font-size: 3rem;
+    text-align: center;
+}
+.about2head2{
+    font-family: 'Homemade Apple', cursive;
+    text-align: center;
+    font-size: 1.5rem;
+   
+    color: #7e7b7b;
+
+}
+
+.about2para{
+      /* font-family: 'Playfair Display', serif; */
+        font-family: 'Poiret One', sans-serif;
+        font-weight: bold;
+        text-align: center;
+            /* font-family: 'Playfair Display', serif; */
+}
+.contactbutton{
+    text-align: center;
+}
+
+.about21image img{
+    height: 35rem;
+}
+.about21image {
+    margin: 4rem 6rem;
+}
+
+.aboutimages{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    margin: 3rem 3rem;
+}
+.about4{
+    background-color:#E8E7E5 ;
+}
+
+.about4head span{
+    font-family: Yatra One;
+    color:#433f3f;
+    font-size: 2.5rem;
+  text-align: center;
+}
+
+.about4image1 img{
+     height: 26rem;
+     width: 22rem;
+}
+
+.about4image2 img{
+    height: 32rem;
+    width: 26rem;
+}
