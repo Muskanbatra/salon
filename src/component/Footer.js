@@ -4,8 +4,8 @@ export const Footer = () => {
   return (
     <>
       <div className='footerContainer' >
-        <div className='topheading' >
-          <span>muskan batra</span>
+        <div className='topheading text-white' >
+          <span className=' text-white'>muskan batra</span>
         </div>
 
         <div className='secTopheading' >
@@ -14,7 +14,7 @@ export const Footer = () => {
           </span>
         </div>
 
-        <div className='toheads'>
+        <div className='grid md:grid-cols-4 md:block hidden'>
           <div className='Subtohead' >
             <span>LET'S GET SOCIAL!</span>
           </div>
@@ -23,7 +23,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className='services' >
+        <div className='grid md:grid-cols-4 grid-cols-2 gap-3' >
           <div className='servicesTab' >
             <div>
               <span>Instagram</span>

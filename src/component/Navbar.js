@@ -1,14 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import a1 from '../assests/logo.png'
 
 
 export const Navbar = () => {
   return (
     <>
-    <div className='nav'>
-        <div className='logo'>
-            <span> Hi - Glow  Beauty    Salon</span>
-        </div>
+    <div className='nav h-[80px] justify-center items-center'>
+     
+        <span className='navhead'> The brown studio</span>
+   
         <div className='tab'>
             <div><Link to={"/"}>Home</Link></div>
             <div><Link to={"/services"}>Services</Link></div>
