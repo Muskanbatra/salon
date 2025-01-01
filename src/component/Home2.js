@@ -95,7 +95,7 @@ export const Home2 = () => {
             <img
               src={m4}
               alt="Cosmetic Tattooing"
-              className=" md:w-[500px] h-[300px]  w-full rounded-tr-[50%] rounded-tl-[50%] overflow-hidden object-cover"
+              className=" md:h-[500px] h-[300px]  w-full rounded-tr-[50%] rounded-tl-[50%] overflow-hidden object-cover"
             />
           </div>
           {/* Dots */}

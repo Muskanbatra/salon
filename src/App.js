@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
     <BrowserRouter>
-       {/* <Navbar/> */}
+       <Navbar/>
         <Routes>
           <Route path='/' element={<Home2/>}/>
           <Route path='/services' element={<Service2/>}/>
